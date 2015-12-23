@@ -1,3 +1,6 @@
+language: python
+build_image: drydock/u14pyt:prod
+
 build:
  ci:
   install:

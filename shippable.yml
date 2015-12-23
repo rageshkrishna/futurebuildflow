@@ -1,5 +1,7 @@
-language: python
-build_image: drydock/u14pyt:prod
+language: node_js
+build_image: drydock/u14nod:prod
+node_js:
+ - 0.12
 
 build:
  ci:
